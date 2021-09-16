@@ -2293,7 +2293,10 @@ section {
 .take-one .p-text,
  #blog h3,
  #membership .sec-title h2,
- #beme-ig-pod h3 {
+ #beme-ig-pod h3,
+ #beme-ig h2,
+ #beme-igtv h2,
+ #comment-region h3 {
   color: #af1f5c;
   font-weight: bold;
 
@@ -2308,8 +2311,10 @@ section {
 .take-one .p-text,
  #blog h3,
  #membership .sec-title h2,
- #beme-ig-pod h3 {
-padding-bottom: 12px;
+ #beme-ig-pod h3,
+ #beme-ig h2,
+ #beme-igtv h2 {
+    padding-bottom: 12px;
 
  }
 /* EVENTS **/
@@ -2664,6 +2669,15 @@ padding-bottom: 12px;
 }
 
 
+#membership .recommend h3 {
+  background: white;
+  color: #af1f5c;
+  padding: 5px 0;
+  margin-top: 15px;
+  box-shadow: darkblue;
+  text-transform: uppercase;
+}
+
 
 
 #membership .promos .promo:nth-child(2) {
@@ -2794,3 +2808,32 @@ padding-bottom: 12px;
   padding-bottom: 25px;
 }
 
+
+
+/*****BEME IGTV *******/
+#beme-igtv img {
+  border: 1px solid #eee;
+  border-radius: 15px;
+}
+
+
+/****Comment Section *******/
+#comment-region h3 {
+  padding-bottom:12px;
+  font-size: 15px;
+}
+
+
+#comment-region h3 {
+  position: relative;
+}
+#comment-region h3:after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 1px;
+  background-color: #af1f5c;
+  position: absolute;
+  left: 25%;
+  top:30%;
+}
