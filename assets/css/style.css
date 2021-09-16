@@ -1942,9 +1942,15 @@ section {
 #footer {
   color: #fff;
   font-size: 14px;
-  background: #343a40;
+  background:#454d55;
   padding:60px;
 
+}
+.line-curve {
+  background-image: url(../img/footerbackground.png);
+  background-repeat: no-repeat;
+  height: 140px;
+  background-size: cover;
 }
 
 
@@ -2167,11 +2173,15 @@ section {
 }
 
 
-#newsletter .newsletter-inner {
-  border: 5px solid #af1f5c;
-  border-radius: 25px;
-}
 
+
+#newsletter .newsletter-inner {
+  border-radius: 25px;
+  background-image: url("../img/newsletterbckrground2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #af1f5c;
+}
 
 .newsletter-inner {
   text-align: center;
@@ -2280,13 +2290,28 @@ section {
 .take-two .t-subtitle,
 .take-two .t-300,
 .p-main-text,
-.take-one .p-text {
+.take-one .p-text,
+ #blog h3,
+ #membership .sec-title h2,
+ #beme-ig-pod h3 {
   color: #af1f5c;
+  font-weight: bold;
+
 }
 
 
 
 
+.take-two .t-subtitle,
+.take-two .t-300,
+.p-main-text,
+.take-one .p-text,
+ #blog h3,
+ #membership .sec-title h2,
+ #beme-ig-pod h3 {
+padding-bottom: 12px;
+
+ }
 /* EVENTS **/
 #event h2,
 #event .p-arabic {
@@ -2344,9 +2369,6 @@ section {
 
 #membership .sec-title {
   padding-bottom: 50px;
-}
-#membership .sec-title h2 {
-  color: #af1f5c;
 }
 
 
@@ -2648,6 +2670,11 @@ section {
   background-color: #dcdf50 !important;
 }
 
+#membership .promos .promo:nth-child(1),
+#membership .promos .promo:nth-child(3) {
+  margin-top: 50px;
+}
+
 #membership .promos .promo {
   border-radius:20px;
 }
@@ -2662,3 +2689,87 @@ section {
 
 
 
+
+/***** Blog *********/
+
+
+
+#blog li {
+  list-style-type: decimal-leading-zero;
+}
+
+#blog ol:nth-of-type(1) {
+  list-style-position: outside;
+  padding: 0 0 0 0;
+
+}
+
+
+#blog ol li {
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+#blog ol li p {
+  max-width: 250px;
+}
+#blog ol li p a{
+  font-size: 15px;
+  font-weight:bold;
+}
+#blog .b-alink {
+  color: #64aaa4;
+  /*! padding-bottom: 10px; */
+}
+
+#blog p {
+  font-size: 13px;
+}
+
+#blog h4 {
+  color: #af1f5c;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 250px;
+  background: ;
+}
+#blog a img {
+  padding-bottom: 25px;
+}
+
+#blog .b-more-blog {
+  padding-bottom: 25px;
+}
+
+
+#blog h3 {
+  border-bottom: 3px solid #fcefef;
+  margin-bottom: 25px;
+}
+
+
+/*********Footer Lining*******************/
+.footer-bg-bottom {
+  position: relative;
+}
+
+.lining-blue {
+  position: absolute;
+  background: url("../img/footerpatterndesign.png");
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  top: -25px;
+}
+
+
+/******BEME IG *********/
+#beme-ig-pod h4 {
+    color: #af1f5c;
+    text-transform: capitalize;
+}
