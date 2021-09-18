@@ -1,13 +1,30 @@
-.btn:focus, .btn:active, button:focus, button:active {
-  outline: none !important;
-  box-shadow: none !important;
+.tablink {
+  background-color: #af1f5c;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
 }
 
-#image-gallery .modal-footer{
-  display: block;
+.tablink:hover {
+  background-color: #fff;
+  color: #af1f5c;
+  border: 1px solid #af1f5c;
 }
 
-.thumb{
-  margin-top: 15px;
-  margin-bottom: 15px;
+/* Style the tab content */
+.tabcontent {
+  color: #111;
+  display: none;
+  padding: 50px;
+  text-align: center;
 }
+
+#London {border:1px solid#af1f5c;}
+#Paris {border:1px solid#af1f5c;}
+#Tokyo {border:1px solid#af1f5c;}
+#Oslo {border:1px solid#af1f5c;}

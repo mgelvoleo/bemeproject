@@ -99,26 +99,89 @@ others and widely benefit humanity.</p>
           <div class="row padding">
             <div class="col-md-12 col-lg-6">
               <h2>OBJECTIVE, MISSION, VISION</h2>
-              <ul>
-                <li><a href="#"><span>- Holistic Wellbeing Service and
-                      Evidence-based Body & Brain Training
-                      System to raise all community Health,
-                      Happiness & Peace</span></a></li>
-                <li><a href="#"><span>-- We have a responsibility to provide
-                        services that benefit the client’s total
-                        family of interdependent stakeholders;
-                        including their partners, employees and
-                    customers, community and society, all of humanity and the Earth.</span></a></li>
-                <li><a href="#"><span>- Our popularization, systemization, and
-                            development of an international educational content business of mind-
-                            body training methods originate from Korea’s native Sundo culture. And its
-                        creation and development of the humanitarian ideal, makes realizing public values its corporate raison d’etre.</span></a></li>
-              </ul>
-            </div>
+              <div class="tab">
+
+                <div class="tablinks"><img src="assets/img/about/meditating.svg" alt=""><p>-Holistic Wellbeing Service and
+                    Evidence-based Body & Brain Training
+                    System to raise all community Health,
+                    Happiness & Peace</p>
+                </div>
+
+                <div class="tablinks"><img src="assets/img/about/world.svg" alt=""><p>- We have a responsibility to provide
+                  services that benefit the client’s total
+                  family of interdependent stakeholders;
+                  including their partners, employees and
+                  customers, community and society, all of
+                  humanity and the Earth.</p>
+                </div>
+
+                <div class="tablinks"><img src="assets/img/about/brainmeditate.svg" alt=""><p>- Our popularization, systemization, and
+                  development of an international
+                  educational content business of mind-
+                  body training methods originate from
+                  Korea’s native Sundo culture. And its
+                  creation and development of the
+                  humanitarian ideal, makes realizing
+                  public values its corporate raison d’etre.</p></div>
+                </div>
+              </div>
             <div class="col-lg-6">
-              <h3>ESSENCE OF BRAIN EDUCATION</h3>
-              <div class="box-essence">
-                <p>Education based on brain scientific research</p>
+                <h3>ESSENCE OF BRAIN EDUCATION</h3>
+
+                <div class="box-essence">
+                <div id="London" class="tabcontent">
+                  <h1>Education based
+                    on brain scientific
+                    research.</h1>
+                </div>
+                <div id="Paris" class="tabcontent">
+                  <h1>Education based
+                    on brain scientific
+                    research.</h1>
+                </div>
+
+                <div id="Tokyo" class="tabcontent">
+                  <h1>Education based
+                    on brain scientific
+                    research.</h1>
+                </div>
+
+                <div id="Oslo" class="tabcontent">
+                  <h1>Education based
+                    on brain scientific
+                    research.</h1>
+                </div>
+
+                <button class="tablink" onclick="openCity('London', this, '#af1f5c')" id="defaultOpen">1</button>
+                <button class="tablink" onclick="openCity('Paris', this, '#af1f5c')">2</button>
+                <button class="tablink" onclick="openCity('Tokyo', this, '#af1f5c')">3</button>
+                <button class="tablink" onclick="openCity('Oslo', this, '#af1f5c')">4</button>
+
+                <!--div class="sticker">
+                   <div class="wrap-sticker">
+                      <div class="stickme">&nbsp;</div>
+                    </div>
+                </div-->
+
+                <script>
+                  function openCity(cityName,elmnt,color) {
+                    var i, tabcontent, tablinks;
+                    tabcontent = document.getElementsByClassName("tabcontent");
+                    for (i = 0; i < tabcontent.length; i++) {
+                      tabcontent[i].style.display = "none";
+                    }
+                    tablinks = document.getElementsByClassName("tablink");
+                    for (i = 0; i < tablinks.length; i++) {
+                      tablinks[i].style.backgroundColor = "";
+                    }
+                    document.getElementById(cityName).style.display = "block";
+                    elmnt.style.backgroundColor = color;
+
+                  }
+                  // Get the element with id="defaultOpen" and click on it
+                  document.getElementById("defaultOpen").click();
+                </script>
+
               </div>
             </div>
           </div>

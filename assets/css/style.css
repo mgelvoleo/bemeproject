@@ -2128,6 +2128,53 @@ section {
 /***About****/
 
 
+/* Style the tab MIssion and objective */
+
+
+/* Style the buttons inside the tab */
+
+
+
+.mission img {
+  float: left;
+  padding-right: 10px;
+  width: 100px;
+}
+
+
+.mission .tab div {
+  display: block;
+color: black;
+padding: 22px 20px;
+width: 100%;
+border: none;
+outline: none;
+text-align: left;
+cursor: pointer;
+transition: 0.3s;
+font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.mission .tab div:hover {
+  background-color: #eee;
+  border-radius: 20px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+/* Create an active/current "tab button" class */
+.mission .tab div.active {
+  background-color: #ccc;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
 
 .container.about-bottom {
   /*! background: red; */
@@ -2629,10 +2676,10 @@ section {
   width: 250px;
   margin: 15px 0 10px 0;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   padding: 17px 0 17px 0;
   position: absolute;
-  top: 144px;
+  top: 245px;
   font-weight: bold;
 }
 #membership ul {
@@ -2837,3 +2884,69 @@ section {
   left: 25%;
   top:30%;
 }
+
+
+/***********Contact Page ********************/
+#contact-page .bg-map {
+  position: relative;
+}
+
+
+
+
+/************Tab in the Essence of BEME ***********************************/
+.mission .box-essence{
+  position: relative;
+}
+
+.mission .tablink {
+  background-color: #af1f5c;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.mission .tablink:hover {
+  background-color: #fff;
+  color: #af1f5c;
+  border: 1px solid #af1f5c;
+}
+
+/* Style the tab content */
+.mission .tabcontent {
+  color: #111;
+  display: none;
+  padding: 100px 50px 50px 50px;
+  text-align: center;
+  height: 300px;
+}
+
+.mission h1 {
+  font-size: 22px;
+}
+
+.mission #London {
+
+  border:1px solid#af1f5c;
+}
+.mission #Paris {border:1px solid#af1f5c;}
+.mission #Tokyo {border:1px solid#af1f5c;}
+.mission #Oslo {border:1px solid#af1f5c;}
+
+
+.sticker {
+  background: red;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0;
+}
+
+
+
+/************Tab in the Essence of BEME END ***********************************/
