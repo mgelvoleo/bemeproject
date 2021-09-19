@@ -2451,8 +2451,12 @@ font-size: 17px;
     font-size: 35px;
 }
 
-.about-logo .inner-about.row {
+#about .inner-about.row {
   padding-top: 40px;
+}
+
+#about .inner-about.row h1 {
+  font-size: 30px;
 }
 
 /**MEMBERSHIP**/
