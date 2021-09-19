@@ -2387,6 +2387,12 @@ font-size: 17px;
     padding-bottom: 12px;
 
  }
+
+
+ /*********************/
+
+
+
 /* EVENTS **/
 #event h2,
 #event .p-arabic {
@@ -2426,11 +2432,28 @@ font-size: 17px;
 }
 
 
-.inner-about {
+.about-log h2 span {
+  width: 200px;
+}
+.about-logo {
+  width: 80%;
   /*! background: red; */
-  padding-top: 120px;
+  margin: 0 auto;
+}
+.about-logo span img {
+  width: 200px;
+}
+.about-log span {
+  padding-right: 24px;
 }
 
+.about-logo h2 {
+    font-size: 35px;
+}
+
+.about-logo .inner-about.row {
+  padding-top: 40px;
+}
 
 /**MEMBERSHIP**/
 #membership {
